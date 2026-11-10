@@ -1,0 +1,2031 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sonu ❤️</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    overflow-x: hidden;
+    background: linear-gradient(135deg,
+        #210b35, #55205e, #a13e76, #31134f);
+    background-size: 300% 300%;
+    animation: gradient 12s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes gradient {
+    0%,100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+#stars {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    border: 1px solid #ffffff55;
+    border-radius: 30px;
+    padding: 9px 22px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background: #ffffff12;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(65px, 12vw, 115px);
+    font-weight: 400;
+    margin: 22px 0;
+    color: #ffd9ee;
+    text-shadow: 0 0 30px #ff9edb;
+}
+
+.hero p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ffe5f4;
+}
+
+button {
+    border: none;
+    border-radius: 40px;
+    padding: 14px 30px;
+    background: linear-gradient(90deg,#ff75bb,#c58aff);
+    color: white;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 25px 8px 0;
+    box-shadow: 0 0 25px #ff75bb66;
+    transition: .3s;
+}
+
+button:hover {
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 0 35px #ff75bb;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 35px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    opacity: .7;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(43px, 8vw, 65px);
+    color: #ffd5eb;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.subtitle {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.9;
+    color: #ffe8f5;
+    font-size: 14px;
+}
+
+.glass {
+    max-width: 750px;
+    margin: 35px auto;
+    padding: 35px;
+    border: 1px solid #ffffff35;
+    border-radius: 25px;
+    background: #ffffff13;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 50px #15051e40;
+}
+
+.message {
+    font-size: 15px;
+    line-height: 2.1;
+    color: #fff0f8;
+}
+
+.heart {
+    font-size: 55px;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0%,100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+/* Birthday cake */
+
+.cake {
+    font-size: 100px;
+    margin: 25px;
+    filter: drop-shadow(0 0 20px #ff9bcf);
+}
+
+.cake-text {
+    color: #ffe1f0;
+    margin: 15px;
+}
+
+/* Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 20px;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.photo {
+    min-height: 220px;
+    border-radius: 20px;
+    border: 1px solid #ffffff44;
+    background: #ffffff17;
+    padding: 12px;
+    transition: .4s;
+    overflow: hidden;
+}
+
+.photo:hover {
+    transform: translateY(-8px) rotate(-1deg);
+    background: #ffffff30;
+}
+
+.photo img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+.photo p {
+    padding: 12px 3px 5px;
+    font-size: 13px;
+}
+
+/* Surprise */
+
+.surprise {
+    display: none;
+    animation: appear 1s ease;
+}
+
+@keyframes appear {
+    from {opacity:0;transform:translateY(30px);}
+    to {opacity:1;transform:translateY(0);}
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 35px 15px;
+    background: #18092766;
+    color: #ffdbef;
+    font-size: 13px;
+}
+
+.float {
+    position: fixed;
+    bottom: -30px;
+    pointer-events: none;
+    z-index: 5;
+    animation: floatUp 7s linear forwards;
+}
+
+@keyframes floatUp {
+    to {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+#confetti {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+@media(max-width:600px) {
+    section { padding: 65px 18px; }
+    .glass { padding: 24px 18px; }
+    .gallery { grid-template-columns: repeat(2,1fr); }
+    .photo img { height: 145px; }
+}
+
+/* PREMIUM GALLERY EFFECTS */
+
+.photo {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ffb8df66;
+    box-shadow: 0 8px 25px #17062455;
+}
+
+.photo img {
+    transition: transform .6s ease, filter .6s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.12);
+}
+
+.photo p {
+    color: #ffe3f3;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+/* ENLARGED PHOTO VIEWER */
+
+.photo-viewer {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: rgba(15, 4, 28, .96);
+    align-items: center;
+    justify-content: center;
+    padding: 65px 55px;
+    backdrop-filter: blur(12px);
+}
+
+.photo-viewer.active {
+    display: flex;
+}
+
+.viewer-content {
+    text-align: center;
+    max-width: 850px;
+    width: 100%;
+}
+
+.viewer-content img {
+    max-width: 100%;
+    max-height: 72vh;
+    object-fit: contain;
+    border-radius: 18px;
+    border: 2px solid #ffb5e0;
+    box-shadow: 0 0 35px #ff7acb66;
+}
+
+.viewer-content p {
+    margin: 18px;
+    font-size: 18px;
+    color: #ffd8ec;
+}
+
+#photoCounter {
+    font-size: 13px;
+    color: #dcb9ed;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 23px;
+    background: #ffffff22;
+    padding: 10px 17px;
+}
+
+.viewer-arrow {
+    font-size: 25px;
+    padding: 12px 17px;
+    background: #ffffff22;
+    margin: 10px;
+}
+
+@media(max-width:600px) {
+    .photo-viewer {
+        padding: 65px 12px;
+    }
+
+    .viewer-arrow {
+        font-size: 17px;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .viewer-content p {
+        font-size: 15px;
+    }
+}
+
+/* =================================
+   INTERACTIVE BIRTHDAY CAKE
+================================= */
+
+.cake-stage {
+    width: 100%;
+    max-width: 420px;
+    height: 340px;
+    margin: 45px auto 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    filter: drop-shadow(0 15px 25px #16051f66);
+}
+
+/* CAKE LAYERS */
+
+.cake-layer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px 12px 20px 20px;
+    background: linear-gradient(
+        90deg,
+        #a83e77,
+        #f5a3ce,
+        #d96ca8
+    );
+    box-shadow: inset 0 -9px 12px #8c285b55;
+}
+
+.layer-one {
+    width: 290px;
+    height: 82px;
+    bottom: 48px;
+}
+
+.layer-two {
+    width: 245px;
+    height: 75px;
+    bottom: 130px;
+}
+
+.layer-three {
+    width: 190px;
+    height: 65px;
+    bottom: 205px;
+}
+
+.icing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    border-radius: 12px 12px 50% 50%;
+    background: linear-gradient(
+        90deg,
+        #fff0f8,
+        #ffacd7,
+        #fff0f8
+    );
+}
+
+.icing::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    top: 8px;
+    width: 12px;
+    height: 20px;
+    border-radius: 0 0 10px 10px;
+    background: #fff0f8;
+    box-shadow:
+        75px 3px 0 #fff0f8,
+        150px 0 0 #fff0f8;
+}
+
+/* TOP OF THE CAKE */
+
+.cake-top {
+    position: absolute;
+    bottom: 257px;
+    width: 190px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ffd4e9;
+    box-shadow: inset 0 -5px 8px #e879b0;
+}
+
+/* CAKE PLATE */
+
+.cake-plate {
+    position: absolute;
+    bottom: 30px;
+    width: 340px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(
+        90deg,
+        #a66bba,
+        #f5c8ed,
+        #a66bba
+    );
+    box-shadow: 0 8px 15px #13041f66;
+}
+
+/* CANDLES */
+
+.candles {
+    position: absolute;
+    bottom: 270px;
+    z-index: 5;
+    display: flex;
+    gap: 35px;
+    align-items: flex-end;
+}
+
+.candle {
+    width: 13px;
+    height: 52px;
+    position: relative;
+    background: repeating-linear-gradient(
+        135deg,
+        #fff4fc,
+        #fff4fc 5px,
+        #e87bb8 5px,
+        #e87bb8 10px
+    );
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ffb5e0;
+}
+
+.wick {
+    position: absolute;
+    width: 3px;
+    height: 9px;
+    background: #36202d;
+    top: -8px;
+    left: 5px;
+}
+
+.flame {
+    position: absolute;
+    width: 17px;
+    height: 25px;
+    left: -2px;
+    top: -34px;
+    border-radius: 50% 50% 45% 45%;
+    background: radial-gradient(
+        ellipse at 50% 70%,
+        #fff8ae 5%,
+        #ffb32d 45%,
+        #ff5b25 85%
+    );
+    box-shadow: 0 0 15px #ffb32d,
+                0 0 30px #ff8b3d;
+    transform-origin: bottom center;
+    animation: candleFlicker .7s infinite alternate;
+}
+
+@keyframes candleFlicker {
+    from {
+        transform: rotate(-5deg) scale(1);
+    }
+    to {
+        transform: rotate(5deg) scale(.88,1.08);
+    }
+}
+
+/* BLOWN OUT FLAMES */
+
+.flame.off {
+    display: none;
+}
+
+/* BUTTONS */
+
+.cake-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cake-surprise {
+    display: none;
+    max-width: 650px;
+    margin: 35px auto;
+    padding: 30px;
+    border: 1px solid #ffc3e566;
+    border-radius: 25px;
+    background: #ffffff16;
+    backdrop-filter: blur(15px);
+    animation: appear 1s ease;
+}
+
+.cake-surprise.show {
+    display: block;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media(max-width:480px) {
+
+    .cake-stage {
+        transform: scale(.85);
+        transform-origin: top center;
+        margin-bottom: -35px;
+    }
+
+    .cake-plate {
+        width: 300px;
+    }
+
+    .cake-buttons {
+        gap: 0;
+    }
+}
+
+/* =====================================
+   SECRET BIRTHDAY ENVELOPE
+===================================== */
+
+.envelope-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 15px 35px;
+    perspective: 1000px;
+}
+
+.envelope {
+    width: 320px;
+    height: 210px;
+    position: relative;
+    border-radius: 8px;
+    background: linear-gradient(
+        135deg,
+        #ffb8dc,
+        #d875b5
+    );
+    box-shadow: 0 15px 40px #16051f77;
+}
+
+/* BACK */
+
+.envelope-back {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        #e98abe,
+        #b85c9b
+    );
+    border-radius: 8px;
+}
+
+/* LETTER */
+
+.envelope-letter {
+    position: absolute;
+    width: 92%;
+    height: 185px;
+    left: 4%;
+    bottom: 10px;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 8px;
+    background: linear-gradient(
+        135deg,
+        #fff9fc,
+        #ffe4f1
+    );
+    color: #8c376c;
+    box-shadow: 0 5px 20px #3b143344;
+    transition:
+        transform 1s ease,
+        height 1s ease;
+}
+
+.letter-content {
+    padding: 16px 17px;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+.letter-content h3 {
+    color: #c34b8e;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.letter-content p {
+    margin-bottom: 8px;
+}
+
+.letter-signature {
+    text-align: right;
+    color: #c34b8e;
+    font-weight: 600;
+}
+
+/* FRONT POCKET */
+
+.envelope-front {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    background: linear-gradient(
+        135deg,
+        #ffadd4,
+        #d86ca9
+    );
+    clip-path: polygon(
+        0 0,
+        50% 63%,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+    border-radius: 8px;
+}
+
+/* OPENING FLAP */
+
+.envelope-flap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 5;
+    background: linear-gradient(
+        135deg,
+        #ffd1e8,
+        #e77db6
+    );
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        50% 100%
+    );
+    transform-origin: top center;
+    transition:
+        transform .9s ease,
+        z-index .1s;
+    backface-visibility: hidden;
+}
+
+
+/* PREMIUM PINK WAX HEART SEAL */
+
+.envelope-seal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 6;
+
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle at 35% 30%,
+        #ffb5dc 0%,
+        #ed65a7 45%,
+        #b92e72 100%
+    );
+
+    border: 3px solid #ffdaeb;
+
+    box-shadow:
+        0 0 0 4px #d75b9a88,
+        0 5px 12px #550c3866,
+        inset 0 3px 6px #ffffff88,
+        inset 0 -5px 8px #8c205866;
+
+    font-size: 30px;
+
+    filter: drop-shadow(0 0 8px #ff8bc7);
+
+    transition:
+        opacity .4s,
+        transform .4s;
+
+    animation: waxHeartbeat 1.8s infinite;
+}
+
+/* Raised inner ring */
+
+.envelope-seal::before {
+    content: "";
+
+    position: absolute;
+
+    width: 48px;
+    height: 48px;
+
+    border: 1px solid #ffd5e8;
+
+    border-radius: 50%;
+
+    box-shadow:
+        inset 0 2px 4px #ffffff66,
+        0 1px 3px #8c205855;
+}
+
+/* Heart animation */
+
+@keyframes waxHeartbeat {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.08);
+    }
+}
+
+/* Seal disappears when envelope opens */
+
+.envelope.open .envelope-seal {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* OPEN ENVELOPE */
+
+.envelope.open .envelope-flap {
+    transform: rotateX(180deg);
+    z-index: 1;
+}
+
+.envelope.open .envelope-letter {
+    height: 310px;
+    transform: translateY(-115px);
+    z-index: 5;
+    overflow-y: auto;
+}
+
+.envelope.open .envelope-seal {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* MESSAGE */
+
+.envelope-message {
+    margin: 15px auto;
+    color: #ffe1f2;
+    font-size: 14px;
+}
+
+/* BUTTONS */
+
+.envelope-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* MOBILE */
+
+@media(max-width:480px) {
+
+    .envelope {
+        width: 290px;
+        height: 195px;
+    }
+
+    .envelope.open .envelope-letter {
+        height: 310px;
+        transform: translateY(-110px);
+    }
+
+    .letter-content {
+        font-size: 10px;
+    }
+}
+/* ===================================
+   PREMIUM BIRTHDAY MUSIC PLAYER
+=================================== */
+
+.music-player {
+    max-width: 430px;
+    margin: 35px auto;
+    padding: 35px 25px;
+
+    border-radius: 28px;
+
+    background: linear-gradient(
+        145deg,
+        #ffffff20,
+        #f9b5e522
+    );
+
+    border: 1px solid #ffc7e977;
+
+    box-shadow:
+        0 15px 40px #17051f66,
+        inset 0 0 20px #ffffff10;
+
+    backdrop-filter: blur(15px);
+
+    text-align: center;
+}
+
+/* MUSIC DISC */
+
+.music-disc {
+    width: 175px;
+    height: 175px;
+
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: repeating-radial-gradient(
+        circle,
+        #34213f 0px,
+        #34213f 3px,
+        #181020 5px,
+        #181020 8px
+    );
+
+    border: 5px solid #d58abf;
+
+    box-shadow:
+        0 0 25px #ff83c688,
+        inset 0 0 20px #ffffff22;
+}
+
+.disc-center {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+        circle,
+        #ffb7da,
+        #d84b96
+    );
+
+    font-size: 25px;
+}
+
+/* DISC ROTATION */
+
+.music-disc.playing {
+    animation: rotateDisc 4s linear infinite;
+}
+
+@keyframes rotateDisc {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* SONG INFORMATION */
+
+.music-info h3 {
+    color: #ffe0f3;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.music-info p {
+    color: #f6c6e8;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* PROGRESS BAR */
+
+.music-progress {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #ffe0f3;
+    font-size: 12px;
+}
+
+.music-progress input {
+    flex: 1;
+    cursor: pointer;
+    accent-color: #ff8bc9;
+}
+
+/* CONTROLS */
+
+.music-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin: 22px 0;
+}
+
+.music-controls button {
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    background: #ffffff20;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.music-controls .play-button {
+    width: 65px;
+    height: 65px;
+
+    font-size: 27px;
+
+    background: linear-gradient(
+        135deg,
+        #ff8fc8,
+        #c45aa5
+    );
+
+    box-shadow: 0 0 20px #ff8bc988;
+}
+
+/* VOLUME */
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.volume-control input {
+    width: 130px;
+    accent-color: #ff8bc9;
+    cursor: pointer;
+}
+
+#musicStatus {
+    color: #ffe1f2;
+    font-size: 13px;
+    margin-top: 22px;
+}
+
+/* MOBILE */
+
+@media(max-width:480px) {
+
+    .music-player {
+        margin: 25px 12px;
+        padding: 28px 16px;
+    }
+
+    .music-disc {
+        width: 150px;
+        height: 150px;
+    }
+
+    .music-controls {
+        gap: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="stars"></canvas>
+<canvas id="confetti"></canvas>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="tag">✨ A SPECIAL DAY • A SPECIAL PERSON ✨</div>
+
+    <h1>Happy Birthday<br>Sonu!</h1>
+
+    <p>26 November • A day worth celebrating 🌷</p>
+
+    <button onclick="celebrate()">
+        Open Your Birthday Surprise 🎁
+    </button>
+
+    <div class="scroll">SCROLL DOWN ↓</div>
+
+</section>
+
+<!-- BIRTHDAY COUNTDOWN -->
+
+<section id="countdown-section">
+    <h2>Countdown to Your Special Day 💗</h2>
+    <p class="subtitle">Something magical is coming...</p>
+
+    <div class="glass" style="
+        display:flex;
+        justify-content:center;
+        gap:20px;
+        flex-wrap:wrap;
+    ">
+        <div>
+            <h1 id="days">00</h1>
+            <p>Days</p>
+        </div>
+        <div>
+            <h1 id="hours">00</h1>
+            <p>Hours</p>
+        </div>
+        <div>
+            <h1 id="minutes">00</h1>
+            <p>Minutes</p>
+        </div>
+        <div>
+            <h1 id="seconds">00</h1>
+            <p>Seconds</p>
+        </div>
+    </div>
+
+    <p id="countdown-message" class="subtitle"></p>
+</section>
+
+<!-- WISHES -->
+
+<section>
+
+    <h2>A Beautiful Soul 🌸</h2>
+
+    <p class="subtitle">
+        Today is not just another day.
+        It's a celebration of someone who deserves
+        endless happiness, beautiful memories,
+        laughter and countless reasons to smile.
+    </p>
+
+    <div class="glass">
+        <div class="heart">💗</div>
+
+        <p class="message">
+            Dear Soumi (Sonu),<br><br>
+
+            May your life always be filled with
+            sunshine, beautiful dreams, exciting adventures
+            and wonderful opportunities.
+
+            May every new chapter bring you something
+            amazing. Never stop believing in yourself,
+            keep shining in your own beautiful way,
+            and always remember how special this day is.
+            Don't just always overthink but take breaks 
+            time to time and live a little.
+
+            <br><br>
+            Wishing you the happiest birthday ever! 🎂
+        </p>
+    </div>
+
+</section>
+
+
+<!-- INTERACTIVE BIRTHDAY CAKE -->
+
+<section id="birthdayCake">
+
+    <h2>A Cake Just For You, Sonu! 🎂</h2>
+
+    <p class="subtitle">
+        A special cake for a very special birthday.
+        Make a wish and let the magic begin! ✨
+    </p>
+
+    <div class="cake-stage">
+
+        <!-- CANDLES -->
+
+        <div class="candles">
+
+            <div class="candle">
+                <div class="flame"></div>
+                <div class="wick"></div>
+                <div class="candle-body"></div>
+            </div>
+
+            <div class="candle">
+                <div class="flame"></div>
+                <div class="wick"></div>
+                <div class="candle-body"></div>
+            </div>
+
+            <div class="candle">
+                <div class="flame"></div>
+                <div class="wick"></div>
+                <div class="candle-body"></div>
+            </div>
+
+        </div>
+
+        <!-- THREE CAKE LAYERS -->
+
+        <div class="cake-top"></div>
+
+        <div class="cake-layer layer-one">
+            <div class="icing"></div>
+        </div>
+
+        <div class="cake-layer layer-two">
+            <div class="icing"></div>
+        </div>
+
+        <div class="cake-layer layer-three">
+            <div class="icing"></div>
+        </div>
+
+        <div class="cake-plate"></div>
+
+    </div>
+
+    <p class="cake-text" id="cakeMessage">
+        🕯️ Three little candles, one beautiful wish!
+    </p>
+
+    <div class="cake-buttons">
+
+        <button onclick="blowCandles()">
+            💨 Blow the Candles
+        </button>
+
+        <button onclick="relightCandles()">
+            🔥 Relight Candles
+        </button>
+
+    </div>
+
+    <div id="cakeSurprise" class="cake-surprise">
+
+        <h2>Happy Birthday, Sonu! 💗</h2>
+
+        <p class="message">
+            May all your beautiful wishes come true.
+
+            May your days be filled with laughter,
+            happiness, love and endless opportunities.
+
+            Keep shining, Soumi! 🌸
+
+            <br><br>
+            You deserve a wonderful year ahead! 🎀
+        </p>
+
+    </div>
+
+</section>
+
+<!-- MEMORIES -->
+
+<!-- INTERACTIVE MEMORY GALLERY -->
+
+<section id="memories">
+
+    <h2>Some Beautiful Memories 📸</h2>
+
+    <p class="subtitle">
+        Little moments, beautiful memories and endless smiles.
+        Every photograph holds a special story. 💗
+    </p>
+
+    <div class="gallery" id="photoGallery">
+
+        <div class="photo" onclick="openViewer(0)">
+            <img src="Photos/Photo1.jpeg" alt="Memory one">
+            <p>🌸 A Beautiful Moment</p>
+        </div>
+
+        <div class="photo" onclick="openViewer(1)">
+            <img src="Photos/Photo2.jpeg" alt="Memory two">
+            <p>💗 Sweet Memories</p>
+        </div>
+
+        <div class="photo" onclick="openViewer(2)">
+            <img src="Photos/Photo3.jpeg" alt="Memory three">
+            <p>✨ A Little Sunshine</p>
+        </div>
+
+        <div class="photo" onclick="openViewer(3)">
+            <img src="Photos/Photo4.jpeg" alt="Memory four">
+            <p>🦋 Simply Wonderful</p>
+        </div>
+
+        <div class="photo" onclick="openViewer(4)">
+            <img src="Photos/Photo5.jpeg" alt="Memory five">
+            <p>🌷 Moments to Remember</p>
+        </div>
+
+        <div class="photo" onclick="openViewer(5)">
+            <img src="Photos/Photo6.jpeg" alt="Memory six">
+            <p>💕 Forever Special</p>
+        </div>
+
+    </div>
+
+    <p class="subtitle">
+        Six photographs, countless beautiful memories.
+        Keep shining, Sonu! 💖
+    </p>
+
+</section>
+
+<!-- PHOTO VIEWER -->
+
+<div id="photoViewer" class="photo-viewer">
+
+    <button class="close-viewer" onclick="closeViewer()">
+        ✕
+    </button>
+
+    <button class="viewer-arrow left"
+        onclick="changePhoto(-1)">❮</button>
+
+    <div class="viewer-content">
+        <img id="largePhoto" src="" alt="Enlarged memory">
+        <p id="photoCaption"></p>
+        <span id="photoCounter"></span>
+    </div>
+
+    <button class="viewer-arrow right"
+        onclick="changePhoto(1)">❯</button>
+
+</div>
+
+<!-- SURPRISE MESSAGE -->
+
+
+<!-- SECRET BIRTHDAY LETTER -->
+
+<section id="secretLetter">
+
+    <h2>A Little Surprise For You 💌</h2>
+
+    <p class="subtitle">
+        Someone has left a little birthday message for you.
+        Open it to discover your surprise! 💗
+    </p>
+
+    <div class="envelope-container">
+
+        <div class="envelope" id="birthdayEnvelope">
+
+            <!-- Envelope background -->
+            <div class="envelope-back"></div>
+
+            <!-- Birthday letter -->
+            <div class="envelope-letter" id="birthdayLetter">
+
+                <div class="letter-content">
+
+                    <h3>Dear Sonu, 💗</h3>
+
+                    <p>
+                        Today is your special day, and I hope it
+                        brings you endless happiness.
+                    </p>
+
+                    <p>
+                        May your dreams become reality,
+                        your smile shine brighter every day,
+                        and your journey be filled with
+                        wonderful adventures.
+                    </p>
+
+                    <p>
+                        Never stop believing in yourself.
+                        You are capable of achieving beautiful
+                        things.
+                    </p>
+
+                    <p>
+                        Keep smiling, keep shining,
+                        and always stay wonderful! 🌸
+                    </p>
+
+                    <h3>Happy Birthday, Soumi! 🎂</h3>
+
+                    <p class="letter-signature">
+                        With lots of best wishes,<br>
+                        Someone wishing you happiness 💕
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Envelope flap -->
+            <div class="envelope-flap"></div>
+
+            <!-- Front pocket -->
+            <div class="envelope-front"></div>
+
+            <!-- Heart seal -->
+            <!-- BEAUTIFUL WAX HEART SEAL -->
+
+            <div class="envelope-seal" id="envelopeSeal">
+                 <span>♥</span>
+            </div>
+                💗
+            </div>
+
+        </div>
+
+    </div>
+
+    <p id="envelopeMessage" class="envelope-message">
+        💌 A special message is waiting for you!
+    </p>
+
+    <div class="envelope-buttons">
+
+        <button id="openLetterButton" onclick="openBirthdayLetter()">
+            💌 Open Your Letter
+        </button>
+
+        <button id="closeLetterButton"
+            onclick="closeBirthdayLetter()"
+            style="display:none">
+            💗 Close Letter
+        </button>
+
+    </div>
+
+</section>
+<!-- BIRTHDAY MUSIC PLAYER -->
+
+<section id="birthdayMusic">
+
+    <h2>A Melody Just For You, Sonu! 🎵</h2>
+
+    <p class="subtitle">
+        Every beautiful celebration deserves
+        a beautiful melody. 💗
+    </p>
+
+    <div class="music-player">
+
+        <!-- ROTATING MUSIC DISC -->
+
+        <div class="music-disc" id="musicDisc">
+            <div class="disc-center">
+                <span>💗</span>
+            </div>
+        </div>
+
+        <!-- SONG INFORMATION -->
+
+        <div class="music-info">
+
+            <h3>Birthday Melody</h3>
+
+            <p> A Special Song For Soumi 🌸 </p>
+
+        </div>
+
+        <!-- PROGRESS BAR -->
+
+        <div class="music-progress">
+
+            <span id="currentTime">0:00</span>
+
+            <input
+                type="range"
+                id="musicProgress"
+                value="0"
+                min="0"
+                max="100"
+            >
+
+            <span id="duration">0:00</span>
+
+        </div>
+
+        <!-- MUSIC CONTROLS -->
+
+        <div class="music-controls">
+
+            <button onclick="restartMusic()" title="Restart">
+                ⏮
+            </button>
+
+            <button
+                id="playPauseButton"
+                onclick="toggleMusic()"
+                class="play-button"
+            >
+                ▶
+            </button>
+
+            <button onclick="toggleMusicLoop()" title="Repeat">
+                🔁
+            </button>
+
+        </div>
+
+        <!-- VOLUME CONTROL -->
+
+        <div class="volume-control">
+
+            <span>🔉</span>
+
+            <input
+                type="range"
+                id="musicVolume"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.7"
+            >
+
+            <span>🔊</span>
+
+        </div>
+
+        <p id="musicStatus">
+            Press play to start the birthday melody! 💕
+        </p>
+
+    </div>
+
+    <audio id="birthdayAudio"
+        src="Music/birthday-music.mp3"
+        preload="metadata">
+    </audio>
+
+</section>
+<footer>
+    Made with 💗 and lots of wishes for Soumi (Sonu).
+    <br><br>
+    © A Little Birthday Surprise
+</footer>
+
+<script>
+
+// LIVE BIRTHDAY COUNTDOWN
+
+function updateCountdown() {
+    const now = new Date();
+
+    let birthday = new Date(
+        now.getFullYear(), 10, 26, 0, 0, 0
+    );
+
+    if (now >= birthday) {
+        birthday = new Date(
+            now.getFullYear() + 1, 10, 26, 0, 0, 0
+        );
+    }
+
+    const difference = birthday - now;
+
+    const days = Math.floor(difference / 86400000);
+    const hours = Math.floor((difference / 3600000) % 24);
+    const minutes = Math.floor((difference / 60000) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
+
+    document.getElementById("days").textContent =
+        String(days).padStart(2, "0");
+
+    document.getElementById("hours").textContent =
+        String(hours).padStart(2, "0");
+
+    document.getElementById("minutes").textContent =
+        String(minutes).padStart(2, "0");
+
+    document.getElementById("seconds").textContent =
+        String(seconds).padStart(2, "0");
+
+    document.getElementById("countdown-message").textContent =
+        "Every second brings us closer to your special day! 🌸";
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+// INTERACTIVE PHOTO GALLERY
+
+const galleryPhotos = [
+    {
+        src: "photos/photo1.jpg",
+        caption: "🌸 A Beautiful Moment"
+    },
+    {
+        src: "photos/photo2.jpg",
+        caption: "💗 Sweet Memories"
+    },
+    {
+        src: "photos/photo3.jpg",
+        caption: "✨ A Little Sunshine"
+    },
+    {
+        src: "photos/photo4.jpg",
+        caption: "🦋 Simply Wonderful"
+    },
+    {
+        src: "photos/photo5.jpg",
+        caption: "🌷 Moments to Remember"
+    },
+    {
+        src: "photos/photo6.jpg",
+        caption: "💕 Forever Special"
+    }
+];
+
+let currentPhoto = 0;
+
+function openViewer(index) {
+    currentPhoto = index;
+    updateViewer();
+
+    document.getElementById("photoViewer")
+        .classList.add("active");
+
+    document.body.style.overflow = "hidden";
+}
+
+function closeViewer() {
+    document.getElementById("photoViewer")
+        .classList.remove("active");
+
+    document.body.style.overflow = "";
+}
+
+function updateViewer() {
+    const photo = galleryPhotos[currentPhoto];
+
+    document.getElementById("largePhoto").src =
+        photo.src;
+
+    document.getElementById("photoCaption").textContent =
+        photo.caption;
+
+    document.getElementById("photoCounter").textContent =
+        `${currentPhoto + 1} / ${galleryPhotos.length}`;
+}
+
+function changePhoto(direction) {
+    currentPhoto += direction;
+
+    if (currentPhoto >= galleryPhotos.length) {
+        currentPhoto = 0;
+    }
+
+    if (currentPhoto < 0) {
+        currentPhoto = galleryPhotos.length - 1;
+    }
+
+    updateViewer();
+}
+
+// Close viewer by clicking outside photograph
+
+document.getElementById("photoViewer")
+    .addEventListener("click", function(event) {
+        if (event.target === this) {
+            closeViewer();
+        }
+    });
+
+// Keyboard navigation
+
+document.addEventListener("keydown", function(event) {
+
+    const viewer = document.getElementById("photoViewer");
+
+    if (!viewer.classList.contains("active")) return;
+
+    if (event.key === "Escape") {
+        closeViewer();
+    }
+
+    if (event.key === "ArrowRight") {
+        changePhoto(1);
+    }
+
+    if (event.key === "ArrowLeft") {
+        changePhoto(-1);
+    }
+});
+
+// INTERACTIVE BIRTHDAY CANDLE FUNCTIONS
+
+function blowCandles() {
+
+    const flames = document.querySelectorAll(".flame");
+
+    flames.forEach((flame, index) => {
+
+        setTimeout(() => {
+            flame.classList.add("off");
+        }, index * 250);
+
+    });
+
+    document.getElementById("cakeMessage").textContent =
+        "✨ Your candles are out! May every wish come true!";
+
+    document.getElementById("cakeSurprise")
+        .classList.add("show");
+
+    // Launch birthday confetti
+    celebrate();
+
+}
+
+function relightCandles() {
+
+    const flames = document.querySelectorAll(".flame");
+
+    flames.forEach(flame => {
+        flame.classList.remove("off");
+    });
+
+    document.getElementById("cakeMessage").textContent =
+        "🕯️ Three little candles, one beautiful wish!";
+
+    document.getElementById("cakeSurprise")
+        .classList.remove("show");
+
+}
+
+// SECRET BIRTHDAY LETTER FUNCTIONS
+
+function openBirthdayLetter() {
+
+    const envelope = document.getElementById("birthdayEnvelope");
+
+    envelope.classList.add("open");
+
+    document.getElementById("envelopeMessage").textContent =
+        "💗 A little letter, filled with birthday wishes!";
+
+    document.getElementById("openLetterButton").style.display =
+        "none";
+
+    document.getElementById("closeLetterButton").style.display =
+        "inline-block";
+
+}
+
+function closeBirthdayLetter() {
+
+    const envelope = document.getElementById("birthdayEnvelope");
+
+    envelope.classList.remove("open");
+
+    document.getElementById("envelopeMessage").textContent =
+        "💌 A special message is waiting for you!";
+
+    document.getElementById("openLetterButton").style.display =
+        "inline-block";
+
+    document.getElementById("closeLetterButton").style.display =
+        "none";
+
+}
+// ===================================
+// BIRTHDAY MUSIC PLAYER FUNCTIONS
+// ===================================
+
+const birthdayAudio =
+    document.getElementById("birthdayAudio");
+
+const musicDisc =
+    document.getElementById("musicDisc");
+
+const playPauseButton =
+    document.getElementById("playPauseButton");
+
+const musicProgress =
+    document.getElementById("musicProgress");
+
+const musicVolume =
+    document.getElementById("musicVolume");
+
+const musicStatus =
+    document.getElementById("musicStatus");
+
+// FORMAT TIME
+
+function formatMusicTime(seconds) {
+
+    if (!Number.isFinite(seconds)) return "0:00";
+
+    const minutes = Math.floor(seconds / 60);
+
+    const remainingSeconds =
+        Math.floor(seconds % 60);
+
+    return `${minutes}:${String(remainingSeconds).padStart(2, "0")}`;
+}
+
+// PLAY AND PAUSE
+
+async function toggleMusic() {
+
+    if (birthdayAudio.paused) {
+
+        try {
+
+            await birthdayAudio.play();
+
+            playPauseButton.textContent = "⏸";
+
+            musicDisc.classList.add("playing");
+
+            musicStatus.textContent =
+                "Now playing your special birthday melody! 💗";
+
+        } catch (error) {
+
+            musicStatus.textContent =
+                "Please check that your music file is in the Music folder.";
+
+        }
+
+    } else {
+
+        birthdayAudio.pause();
+
+        playPauseButton.textContent = "▶";
+
+        musicDisc.classList.remove("playing");
+
+        musicStatus.textContent =
+            "Music paused. Press play to continue! 🎵";
+
+    }
+}
+
+// UPDATE PROGRESS
+
+birthdayAudio.addEventListener("timeupdate", function() {
+
+    if (!Number.isFinite(birthdayAudio.duration)) return;
+
+    musicProgress.value =
+        (birthdayAudio.currentTime / birthdayAudio.duration) * 100;
+
+    document.getElementById("currentTime").textContent =
+        formatMusicTime(birthdayAudio.currentTime);
+
+});
+
+// LOAD SONG DURATION
+
+birthdayAudio.addEventListener("loadedmetadata", function() {
+
+    document.getElementById("duration").textContent =
+        formatMusicTime(birthdayAudio.duration);
+
+});
+
+// SEEK MUSIC
+
+musicProgress.addEventListener("input", function() {
+
+    if (Number.isFinite(birthdayAudio.duration)) {
+
+        birthdayAudio.currentTime =
+            (musicProgress.value / 100) * birthdayAudio.duration;
+
+    }
+
+});
+
+// VOLUME CONTROL
+
+musicVolume.addEventListener("input", function() {
+
+    birthdayAudio.volume = Number(musicVolume.value);
+
+});
+
+// RESTART MUSIC
+
+function restartMusic() {
+
+    birthdayAudio.currentTime = 0;
+
+    if (birthdayAudio.paused) {
+        toggleMusic();
+    }
+
+}
+
+// REPEAT MUSIC
+
+function toggleMusicLoop() {
+
+    birthdayAudio.loop = !birthdayAudio.loop;
+
+    musicStatus.textContent = birthdayAudio.loop
+        ? "Repeat mode is ON! 🔁"
+        : "Repeat mode is OFF! 🎵";
+
+}
+
+// WHEN MUSIC ENDS
+
+birthdayAudio.addEventListener("ended", function() {
+
+    playPauseButton.textContent = "▶";
+
+    musicDisc.classList.remove("playing");
+
+    musicStatus.textContent =
+        "What a beautiful melody! Play it again anytime. 💗";
+
+});
+
+// MUSIC FILE ERROR
+
+birthdayAudio.addEventListener("error", function() {
+
+    musicStatus.textContent =
+        "Music file not found. Please check Music/birthday-music.mp3";
+
+});
+
+// Floating hearts and stars
+
+const symbols = ["💗","💕","✨","🌸","💖","⭐"];
+
+function createFloat() {
+    const el = document.createElement("div");
+    el.className = "float";
+    el.textContent = symbols[
+        Math.floor(Math.random()*symbols.length)
+    ];
+
+    el.style.left = Math.random()*100 + "vw";
+    el.style.fontSize = (15+Math.random()*25)+"px";
+    el.style.animationDuration = (5+Math.random()*5)+"s";
+
+    document.body.appendChild(el);
+
+    setTimeout(()=>el.remove(),10000);
+}
+
+setInterval(createFloat,450);
+
+
+// Reveal birthday letter
+
+function reveal() {
+    const box = document.getElementById("surprise");
+    box.style.display = "block";
+    box.scrollIntoView({behavior:"smooth",block:"center"});
+    celebrate();
+}
+
+
+// Confetti celebration
+
+function celebrate() {
+
+    const canvas = document.getElementById("confetti");
+    const ctx = canvas.getContext("2d");
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let pieces = [];
+
+    for(let i=0;i<180;i++) {
+        pieces.push({
+            x:Math.random()*canvas.width,
+            y:-Math.random()*canvas.height,
+            size:Math.random()*9+4,
+            speed:Math.random()*4+2,
+            color:["#ff8acb","#ffe28a","#ffffff",
+                   "#c59aff","#ffb4d8"][Math.floor(Math.random()*5)]
+        });
+    }
+
+    let frames = 0;
+
+    function draw() {
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+
+        pieces.forEach(p=>{
+            ctx.fillStyle=p.color;
+            ctx.fillRect(p.x,p.y,p.size,p.size);
+            p.y+=p.speed;
+            p.x+=Math.sin(p.y/20);
+        });
+
+        frames++;
+
+        if(frames<180) {
+            requestAnimationFrame(draw);
+        } else {
+            ctx.clearRect(0,0,canvas.width,canvas.height);
+        }
+    }
+
+    draw();
+}
+
+
+// Twinkling background stars
+
+const starCanvas = document.getElementById("stars");
+const starCtx = starCanvas.getContext("2d");
+
+let stars = [];
+
+function resizeStars() {
+    starCanvas.width = window.innerWidth;
+    starCanvas.height = window.innerHeight;
+
+    stars = Array.from({length:100},()=>({
+        x:Math.random()*starCanvas.width,
+        y:Math.random()*starCanvas.height,
+        r:Math.random()*2,
+        a:Math.random()
+    }));
+}
+
+function drawStars() {
+    starCtx.clearRect(0,0,starCanvas.width,starCanvas.height);
+
+    stars.forEach(s=>{
+        s.a += (Math.random()-.5)*.08;
+        s.a = Math.max(.2,Math.min(1,s.a));
+
+        starCtx.beginPath();
+        starCtx.arc(s.x,s.y,s.r,0,Math.PI*2);
+        starCtx.fillStyle=`rgba(255,255,255,${s.a})`;
+        starCtx.fill();
+    });
+
+    requestAnimationFrame(drawStars);
+}
+
+resizeStars();
+drawStars();
+
+window.addEventListener("resize",resizeStars);
+
+</script>
+
+</body>
+</html>
